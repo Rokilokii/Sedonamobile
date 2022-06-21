@@ -1,0 +1,555 @@
+    @media (max-width: 767px) {
+        .container {
+            width: 320px;
+        }
+        header {
+            min-height: 55px;
+            position: relative;
+        }
+        .user-nav-wrapper {
+            display: flex;
+            height: 56px;
+            position: relative;
+            align-items: center;
+            justify-content: flex-end;
+            background: #ffffff;
+        }
+        .header-logo-link {
+            position: absolute;
+            left: 50%;
+            margin-left: 0;
+            z-index: 10;
+            transform: translate(-50%, 0px);
+            top: 0px;
+            width: 102px;
+        }
+        .burger-icon svg {
+            display: block;
+            fill: #81b3d2;
+            width: 38px;
+            height: 38px;
+        }
+        .main-nav {
+            display: none;
+            flex-basis: 100%;
+        }
+        .nav-item {
+            width: 100%;
+            padding: 20px 0px 20px;
+            font-size: 14px;
+            background-color: #81b3d2;
+            color: #fff;
+            border-bottom: 1px solid #678fa8;
+            text-align: center;
+            &:hover {
+                background-color: #669ec0;
+            }
+            &:active {
+                background-color: #5496bd;
+                color: #88b6d1;
+            }
+        }
+        .nav-item-link {
+            width: 100%;
+        }
+        .close-icon svg {
+            display: block;
+            position: absolute;
+            fill: #fff;
+            width: 38px;
+            height: 38px;
+            top: 6px;
+            right: 11px;
+        }
+        .mobile-main-link {
+            display: none;
+        }
+        .nav-container {
+            flex-direction: column;
+        }
+        .nav-items {
+            flex-direction: column;
+        }
+        .welcome-page {
+            background: 0;
+            width: 100%;
+        }
+        .main-title {
+            width: 80%;
+            font-size: 18px;
+            margin-top: 38px;
+            margin-bottom: 27px;
+        }
+        .main-desc {
+            width: 90%;
+            margin: 0 auto 6px;
+            line-height: 26px;
+        }
+        .real-city {
+            width: 100%;
+            flex-direction: column;
+            margin-bottom: 24px;
+        }
+        .real-city-text {
+            padding: 50px 20px 0px;
+            background-image: url(../img/index/body/mobile/bg2.jpg);
+            background-repeat: no-repeat;
+            background-color: #fff;
+            width: 100%;
+            height: 230px;
+        }
+        .real-city-title {
+            margin: 25px 0 12px;
+            font-size: 18px;
+        }
+        .real-city-desc {
+            margin: 0 0 14px;
+            line-height: 21px;
+            text-align: center;
+        }
+        .advantages-items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .advantages-item:nth-child(2) {
+            padding: 0px 5px 23px;
+        }
+        .advantages-item {
+            padding: 0px 5px 21px;
+            width: 90%;
+        }
+        .advantages-item-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .advantages-img-wrapper {
+            min-height: auto;
+            width: 40px;
+        }
+        .advantages-title {
+            margin: 0 0 0 10px;
+            font-size: 18px;
+        }
+        .advantages-text {
+            padding-bottom: 0;
+            margin-left: 50px;
+            text-align: start;
+        }
+        .mobile-flex-direction-block {
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .diablo-bridge-advantages-items .diablo-bridge-advantages-item:nth-child(1):after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            min-height: 1px;
+            width: 280px;
+            background-color: #d6d6d6;
+            top: 164px;
+        }
+        .advantages-second {
+            padding: 0;
+            padding-top: 25px;
+        }
+        .diablo-bridge {
+            flex-direction: column-reverse;
+            width: 100%;
+            margin-top: 16px;
+        }
+        .diablo-bridge-text {
+            padding: 15px 10px 20px;
+            width: 100%;
+            height: 191px;
+        }
+        .diablo-bridge-title {
+            font-size: 18px;
+            margin: 25px 0 10px;
+        }
+        .diablo-bridge-desc {
+            margin: 0 0 14px;
+        }
+        .diablo-bridge-advantages-title {
+            margin: 0;
+        }
+        .diablo-bridge-advantages-text {
+            margin-left: 0px;
+            text-align: center;
+            padding: 0 10px 33px;
+        }
+        .diablo-bridge-advantages-item:last-child .diablo-bridge-advantages-text {
+            padding-bottom: 8px;
+        }
+        .advantages-numbering {
+            margin: 10px 0 21px;
+        }
+        .search-block {
+            padding: 20px 0;
+            margin-bottom: 28px;
+        }
+        .search-title {
+            margin: 0 0 15px;
+            font-size: 21px;
+            width: 85%;
+        }
+        .search-text {
+            width: 90%;
+            margin: 0px auto 36px;
+        }
+        .search-btn {
+            width: 88%;
+            padding: 15px 30px;
+        }
+        .footer {
+            padding: 28px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-visit {
+            padding-top: 10px;
+            width: 50%;
+            padding-bottom: 26px;
+        }
+        .footer-social {
+            padding-top: 10px;
+            width: 50%;
+            padding-bottom: 26px;
+        }
+        .htmlacademy-logo {
+            padding-top: 10px;
+            width: 50%;
+            padding-bottom: 20px;
+        }
+        .advantages-floatable {
+            order: 2;
+        }
+        .htmlacademy-logo span {
+            margin-left: 0;
+        }
+        // .university-name {
+        //     margin-right: 0px;
+        //     width: 100%;
+        //     margin-bottom: 20px;
+        // }
+        // .university-first-name {
+        //     font-size: 16px;
+        //     width: 100%;
+        //     margin-bottom: 0;
+        //     color: #000;
+        //     text-align: center;
+        // }
+        // .university-second-name {
+        //     font-size: 16px;
+        //     width: 100%;
+        //     margin-bottom: 0;
+        //     color: #000;
+        //     text-align: center;
+        // }
+        // .vt-educational-areas {
+        //     text-align: center;
+        //     width: 100%;
+        //     margin: 0;
+        // }
+        // .vt-educational-areas .educational-area-block:last-of-type {
+        //     margin-bottom: 15px;
+        // }
+        // .vt-tytle {
+        //     font-size: 28px;
+        //     width: 100%;
+        //     margin-bottom: 15px;
+        // }
+        // .educational-area-block {
+        //     width: 100%;
+        //     margin-bottom: 15px;
+        // }
+        // .specialty-code {
+        //     font-size: 18px;
+        //     padding-bottom: 5px;
+        // }
+        // .specialty-name {
+        //     font-size: 16px;
+        // }
+        // .head-of-department-block {
+        //     width: 100%;
+        //     margin: 0;
+        //     text-align: center;
+        //     padding-top: 10px;
+        //     background-color: #eeeeee;
+        // }
+        // .head-of-department-tytle {
+        //     font-size: 18px;
+        //     margin: 0;
+        //     margin-bottom: 5px;
+        //     text-align: center;
+        //     width: 100%;
+        // }
+        // .head-of-department-name {
+        //     font-size: 18px;
+        //     margin: 0;
+        //     text-align: center;
+        //     padding-bottom: 10px;
+        //     width: 100%;
+        // }
+        // .welcome-page-achievements {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        // }
+        // .welcome-page-achievements-tytle {
+        //     font-size: 28px;
+        //     color: #000000;
+        //     padding-top: 25px;
+        // }
+        // .welcome-page-achievements-img {
+        //     width: 100%;
+        // }
+        // .welcome-page-achievements-desc {
+        //     width: 95%;
+        //     font-size: 16px;
+        //     padding: 15px 0 15px;
+        //     color: #000000;
+        // }
+        // .president-grant-btn {
+        //     width: 175px;
+        //     font-size: 18px;
+        //     background-color: #81b3d2;
+        //     margin-bottom: 15px;
+        // }
+        // .president-grant-btn:hover {
+        //     background-color: #669ec0;
+        //     color: #fff;
+        // }
+        // .president-grant-btn:active {
+        //     background-color: #5496bd;
+        //     color: rgba(255, 255, 255, 0.3);
+        // }
+        // .contests-and-olympiad {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        // }
+        // .activity-tytle {
+        //     font-size: 28px;
+        //     color: #000000;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // .activity-items {
+        //     padding: 0;
+        // }
+        // .activity-block {
+        //     width: 200px;
+        // }
+        // .activity-block-img {
+        //     width: 185px;
+        //     height: 140px;
+        // }
+        // .activity-block-text {
+        //     font-size: 16px;
+        //     color: #000;
+        // }
+        // .activism-and-volunteer {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        //     background-color: #eeeeee;
+        // }
+        // .teaching-staff {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        // }
+        // .teaching-staff-tytle {
+        //     font-size: 28px;
+        //     color: #000000;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // .teaching-staff-text {
+        //     font-size: 16px;
+        //     color: #000;
+        //     width: 90%;
+        //     padding-bottom: 15px;
+        // }
+        // .teaching-staff-text:last-of-type {
+        //     padding-bottom: 15px;
+        // }
+        // .teaching-staff-link {
+        //     width: 175px;
+        //     font-size: 18px;
+        //     background-color: #81b3d2;
+        //     margin-bottom: 15px;
+        //     width: 225px;
+        //     padding: 20px 35px;
+        // }
+        // .teaching-staff-link:hover {
+        //     background-color: #669ec0;
+        //     color: #fff;
+        // }
+        // .teaching-staff-link:active {
+        //     background-color: #5496bd;
+        //     color: rgba(255, 255, 255, 0.3);
+        // }
+        // .teaching-staff-img-container {
+        //     display: none;
+        // }
+        // .study-technology {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        //     background-color: #eeeeee;
+        // }
+        // .study-technology-tytle {
+        //     font-size: 28px;
+        //     color: #000000;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // .study-technology-items {
+        //     padding-left: 15%;
+        // }
+        // .study-technology-items-second {
+        //     position: static;
+        //     padding-bottom: 15px;
+        // }
+        // .study-technology-logo {
+        //     display: none;
+        // }
+        // .study-discipline {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        // }
+        // .study-discipline-tytle {
+        //     font-size: 28px;
+        //     color: #000000;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // .study-discipline-container {
+        //     flex-wrap: wrap;
+        // }
+        // .study-discipline-items {
+        //     padding-left: 10%;
+        // }
+        // .study-discipline-items-first {
+        //     padding-bottom: 0px;
+        // }
+        // .study-discipline-items-second {
+        //     padding-bottom: 15px;
+        // }
+        // .cooperation-and-partners {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        //     background-color: #81b3d2;
+        // }
+        // .cooperation-and-partners-tytle {
+        //     font-size: 28px;
+        //     color: #fff;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // img.cooperation-and-partners-img {
+        //     position: static;
+        //     display: block;
+        //     margin: 0 auto;
+        //     padding-bottom: 15px;
+        // }
+        // .internships-abroad {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        // }
+        // .internships-abroad-tytle {
+        //     color: #000;
+        //     font-size: 28px;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // .internships-abroad-block {
+        //     width: 200px;
+        //     padding: 0;
+        // }
+        // .internships-abroad-img {
+        //     width: 185px;
+        // }
+        // .internships-abroad-text {
+        //     padding: 20px 0 15px;
+        //     font-size: 16px;
+        //     color: #000;
+        // }
+        // .pride-board {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        // }
+        // .pride-board-tytle {
+        //     font-size: 28px;
+        //     color: #000000;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // .pride-board-block {
+        //     width: 200px;
+        //     padding: 0;
+        // }
+        // .pride-board-img {
+        //     height: 110px;
+        // }
+        // .pride-board-text {
+        //     padding: 20px 0 15px;
+        //     font-size: 16px;
+        //     color: #000;
+        // }
+        // .student-place-of-work {
+        //     background: 0;
+        //     width: 100%;
+        //     height: auto;
+        //     background-color: #81b3d2;
+        // }
+        // .student-place-of-work-tytle {
+        //     font-size: 28px;
+        //     color: #eeeeee;
+        //     padding-top: 25px;
+        //     padding-bottom: 30px;
+        // }
+        // img.student-place-of-work-img {
+        //     position: static;
+        //     display: block;
+        //     margin: 0 auto;
+        //     padding-bottom: 15px;
+        // }
+        // .footer {
+        //     flex-direction: column;
+        //     padding: 30px 0 10px;
+        // }
+        // .footer-contact {
+        //     width: 100%;
+        // }
+        // .footer-contact a {
+        //     width: 220px;
+        //     margin-bottom: 20px;
+        // }
+        // .footer-social {
+        //     width: 100%;
+        //     margin-bottom: 20px;
+        // }
+        // .htmlacademy-logo {
+        //     width: 100%;
+        // }
+        // .hidden-element {
+        //     display: none;
+        // }
+        // .show-element {
+        //     display: block;
+        // }
+        // .set-height-auto {
+        //     height: auto;
+        // }
+    }

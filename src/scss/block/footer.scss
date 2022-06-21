@@ -1,0 +1,80 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 36px 0;
+    box-sizing: border-box;
+    background-color: rgba(254, 254, 254, 0.85);
+    position: relative;
+}
+
+.footer-visit {
+    padding-top: 10px;
+    width: 33%;
+    & a {
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 26px;
+        color: #000;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        width: 136px;
+        text-transform: uppercase;
+    }
+}
+
+.footer-social {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 46px;
+    height: 48px;
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: #81b3d2;
+    margin-right: 6px;
+    &-tw {
+        background-image: url("../img/index/foot/desktop/t.png");
+        background-repeat: no-repeat;
+        background-position: 15px 18px;
+    }
+    &-fb {
+        background-image: url("../img/index/foot/desktop/fb-icon.png");
+        background-repeat: no-repeat;
+        background-position: 17px 13px;
+    }
+    &-yt {
+        background-image: url("../img/index/foot/desktop/youtube.png");
+        background-repeat: no-repeat;
+        background-position: 13px 17px;
+    }
+    &:active {
+        background-color: #669ec0;
+    }
+    &:hover {
+        background-color: #5496bd;
+        color: #88b6d1;
+    }
+}
+
+.htmlacademy-logo {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 33%;
+    margin-top: 10px;
+    & span {
+        margin-top: 8px;
+        margin-right: 12px;
+        margin-left: 180px;
+        text-transform: uppercase;
+    }
+}

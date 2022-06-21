@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="user-nav-wrapper">
+                <a href="#" class="header-logo-link header-logo-link-form">
+                    <picture>
+                        <source srcset="../img/form/head/mobile/logotype-desktop.png" alt="" class="header-logo header-logo-mobile" width="102px" height="83px" media="(max-width: 767px)">
+                        <source srcset="../img/form/head/tablet/logotype-desktop.png" alt="" class="header-logo header-logo-tablet" width="102px" height="83px" media="(max-width: 1160px)">
+                        <source srcset="../img/form/head/desktop/logotype-desktop.png" alt="" class="header-logo" width="138px" height="70px">
+                        <img srcset="../img/form/head/desktop/logotype-desktop.png" alt="" class="header-logo" width="138px" height="70px" alt="My default image">
+                    </picture>
+                </a>
+                <div class="burger-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                    </svg>
+                </div>
+                <nav class="main-nav">
+                    <div class="nav-container">
+                        <ul class="nav-items">
+                            <div class="close-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                                </svg>
+                            </div>
+                            <a href="actives.html" class="nav-item-link">
+                                <li class="nav-item"> Главная</li>
+                            </a>
+                            <a href="study.html" class="nav-item-link">
+                                <li class="nav-item"> ФОТО И ВИДЕО</li>
+                            </a>
+                        </ul>
+                        <ul class="nav-items">
+                            <a href="partners.html" class="nav-item-link">
+                                <li class="nav-item"> Форма отзыва</li>
+                            </a>
+                            </a>
+                            <a href="achievements.html" class="nav-item-link">
+                                <li class="nav-item"> HTML academy </li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="welcome-block">
+                <picture class="welcome-image ">
+                    <source srcset="../img/form/head/mobile/intro-triangle.jpg" alt=" " class="main-welcome-image" width="320px" height="158px" media="(max-width: 767px)">
+                    <source srcset="../img/form/head/tablet/intro-triangle.jpg" alt=" " class="main-welcome-image" width="768px" height="290px" media="(max-width: 1160px)">
+                    <source srcset="../img/form/head/desktop/intro-triangle.jpg" alt=" " class="main-welcome-image" width="1200px" height="301px">
+                    <img srcset="../img/form/head/desktop/intro-triangle.jpg" alt=" " class="main-welcome-image" width="1200px" height="301px">
+                </picture>
+                <h4 class="form-main-title">Оставьте свой отзыв</h4>
+                <p class="form-main-desc">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+            </div>
+            <div class="user-info-and-feedback">
+                <div class="user-feedback-container">
+                    <h4 class="user-feedback-title user-info-and-feedback-title">Ваше общее впечатление:</h4>
+                    <div class="user-feedback-radios">
+                        <div class="radios">
+                            <input id="radio-1" type="radio" name="user-feedback-radio" value="1" checked>
+                            <label for="radio-1">Скорее положительное</label>
+                        </div>
+                        <div class="radios">
+                            <input id="radio-2" type="radio" name="user-feedback-radio" value="2">
+                            <label for="radio-2">Скорее отрицательное</label>
+                        </div>
+                        <div class="radios">
+                            <input id="radio-3" type="radio" name="user-feedback-radio" value="2">
+                            <label for="radio-3">Затрудняюсь ответить</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-info-container">
+                    <h4 class="user-info-title user-info-and-feedback-title">Представьтесь:</h4>
+                    <div class="user-info-wrapper">
+                        <label for="user-info-input" class="user-info-label">ИМЯ*:</label>
+                        <input type="text" id="user-info-input" name="user-info-name" placeholder="Петр" class="user-info-input-form user-info-input-name">
+                    </div>
+                    <div class="user-info-wrapper">
+                        <label for="user-info-input" class="user-info-label">ФАМИЛИЯ*:</label>
+                        <input type="text" id="user-info-input" name="user-info-surname" placeholder="Иванов" class="user-info-input-form user-info-input-surname">
+                    </div>
+                    <div class="user-info-wrapper">
+                        <label for="user-info-input" class="user-info-label">ОТЧЕСТВО*:</label>
+                        <input type="text" id="user-info-input" name="user-info-patronymic" placeholder="Александрович" class="user-info-input-form user-info-input-patronymic">
+                    </div>
+                </div>
+                <div class="user-contact-information">
+                    <h4 class="user-contact-information-title">Контактная информация:</h4>
+                    <div class="user-contact-information-container">
+                        <div class="user-phone-number user-contact-information-subcontainer">
+                            <label for="user-phone-number-input" class="user-phone-number-label user-contact-information-label">Телефон*:</label>
+                            <label for="user-phone-number-input" class="user-phone-number-label-mobile user-contact-information-label ">Контактный телефон*:</label>
+                            <div class="user-contact-information-button-container">
+                                <input type="text" id="user-phone-number-input" name="user-phone-number-name" placeholder="Введите телефон" class="user-phone-number-input-form user-contact-information-input-form">
+                                <button type="button" class="user-phone-number-button user-contact-information-button" id="user-phone-number-icon"></button>
+                            </div>
+                        </div>
+                        <div class="user-email user-contact-information-subcontainer">
+                            <label for="user-email-input" class="user-email-label user-contact-information-label">Электронная почта*:</label>
+                            <div class="user-contact-information-button-container">
+                                <input type="text" id="user-email-input" name="user-email-name" placeholder="Введите e-mail" class="user-email-input-form user-contact-information-input-form">
+                                <button type="button" class="user-email-button user-contact-information-button" id="user-email-icon"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="visited-attractions">
+                <h4 class="visited-attractions-title">Посещенные <br> достопримечательности:</h4>
+                <div class="visited-attractions-checkboxes">
+                    <label class="checkboxes">
+                        <input type="checkbox" name="Devil's-Bridge" checked>
+                        <span>Мост Дьявола</span>
+                    </label>
+                    <label class="checkboxes">
+                        <input type="checkbox" name="Mount-Bell">
+                        <span>Гора-Колокол</span>
+                    </label>
+                    <label class="checkboxes">
+                        <input type="checkbox" name="Slide-park" checked>
+                        <span>Слайд-парк</span>
+                    </label>
+                    <label class="checkboxes">
+                        <input type="checkbox" name="Red-rocks">
+                        <span>Красные скалы</span>
+                    </label>
+                </div>
+            </div>
+            <div class="user-emotions">
+                <h4 class="user-emotions-title">Опишите свои эмоции:</h4>
+                <!-- <div class="user-emotion-container"> -->
+                <label for="user-emotion-input" class="user-emotion-label"></label>
+                <input type="text" id="user-emotion-input" name="user-emotion-name" placeholder="Опишите подробно все свои восторги" class="user-emotion-input-form">
+                <!-- </div> -->
+                <div class="user-emotion-container">
+                    <button type="button" class="user-emotions-button">ОТПРАВИТЬ ОТЗЫВ</button>
+                    <span class="user-emotions-text">* — обязательные поля</span>
+                </div>
+                <div class="user-emotions-failure-pop-up-container">
+                    <div class="user-emotions-failure-pop-up">
+                        <h4 class="user-emotions-failure-pop-up-title">Что-то пошло не так!</h4>
+                        <p class="user-emotions-failure-pop-up-desc">Проверьте поля, выделенные красным. Скорее всего вы забыли их заполнить </p>
+                        <button type="button" class="user-emotions-failure-pop-up-button">OK</button>
+                    </div>
+                </div>
+                <div class="user-emotions-succes-pop-up-container">
+                    <div class="user-emotions-succes-pop-up">
+                        <h4 class="user-emotions-succes-pop-up-title">Ваш отзыв отправлен!</h4>
+                        <p class="user-emotions-succes-pop-up-desc">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+                        <div class="user-emotions-succes-pop-up-button-container">
+                            <button type="button" class="user-emotions-succes-pop-up-button">ЗАКРЫТЬ ОКНО</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-visit">
+                <a href="#" class="footer-visit-link">#visitSEDONA</a>
+            </div>
+            <div class="footer-social">
+                <a class="social-btn social-btn-tw" href="#"></a>
+                <a class="social-btn social-btn-fb" href="#"></a>
+                <a class="social-btn social-btn-yt" href="#"></a>
+            </div>
+            <div class="htmlacademy-logo">
+                <span>Разработано</span>
+                <a href="" class="htmlacademy-link">
+                    <picture>
+                        <source srcset="../img/form/foot/mobile/logo_name.png" alt="" class="header-logo header-logo-mobile" width="27px" height="34px" media="(max-width: 767px)">
+                        <source srcset="../img/form/foot/tablet/logo_name.png" alt="" class="header-logo header-logo-tablet" width="27px" height="34px" media="(max-width: 1160px)">
+                        <source srcset="../img/form/foot/desktop/logo_name.png" alt="" class="header-logo" width="27px" height="34px">
+                        <img srcset="../img/form/foot/desktop/logo_name.png" alt="" class="header-logo" width="27px" height="34px">
+                    </picture>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

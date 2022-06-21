@@ -1,0 +1,486 @@
+@media (max-width: 1160px) {
+    .container {
+        width: 768px;
+    }
+    .header-logo-link {
+        position: absolute;
+        left: 50%;
+        margin-left: 0;
+        z-index: 10;
+        transform: translate(-50%, 0px);
+        top: 0px;
+        width: 102px;
+    }
+    .nav-item {
+        padding: 21px 18px 21px;
+    }
+    .nav-item-link {
+        width: 152px;
+    }
+    .form-main-title {
+        font-size: 30px;
+    }
+    .user-feedback-title {
+        padding-left: 0;
+    }
+    .user-info-and-feedback-title {
+        font-size: 21px;
+        text-transform: uppercase;
+    }
+    .user-info-and-feedback {
+        margin: 0 60px;
+    }
+    .user-info-input-form {
+        min-width: 160px;
+        width: 160px;
+    }
+    .user-info-container {
+        width: 300px;
+    }
+    .user-info-feedback-container {
+        width: 300px;
+    }
+    .user-contact-information {}
+    .user-contact-information-title {
+        margin: 24px auto 31px;
+    }
+    .user-contact-information-title::before {
+        width: 120px;
+    }
+    .user-contact-information-title::after {
+        width: 120px;
+    }
+    .visited-attractions-title::before {
+        width: 120px;
+    }
+    .visited-attractions-title::after {
+        width: 120px;
+    }
+    .user-emotions-title::before {
+        width: 120px;
+    }
+    .user-emotions-title::after {
+        width: 120px;
+    }
+    .user-info-and-feedback::after {}
+    .real-city-text {
+        padding: 48px 45px 20px;
+        height: 256px;
+    }
+    .advantages-item {
+        width: 33.33%;
+        padding: 28px 46px 0px;
+        box-sizing: border-box;
+    }
+    .advantages-title {
+        margin: 21px 6px 24px;
+    }
+    .advantages-numbering {
+        margin: 0px 0 24px;
+    }
+    .real-city-title {
+        margin: 0 0px 12px;
+    }
+    .diablo-bridge {
+        margin-top: 60px;
+    }
+    .diablo-bridge-title {
+        margin: 0 0px 12px;
+    }
+    .diablo-bridge-text {
+        padding: 48px 45px 20px;
+    }
+    .diablo-bridge-advantages-title {
+        margin-top: 14px;
+        margin-bottom: 14px;
+        line-height: 26px;
+    }
+    .real-city-advantages-title {}
+    .real-city-advantages-text {}
+    .advantages-item:nth-child(2) {
+        padding: 30px 50px 0px;
+    }
+    .advantages-second {
+        background-color: #eee;
+        padding-bottom: 43px;
+    }
+    .search-block {
+        margin-bottom: 8px;
+    }
+    .search-title {
+        margin: 0 0 23px;
+    }
+    .search-text {
+        margin: 0 auto 40px;
+        width: 396px;
+    }
+    .footer {
+        padding: 36px 0;
+    }
+    .htmlacademy-logo {
+        margin: 0;
+        margin-top: 8px;
+        text-transform: uppercase;
+        & span {
+            margin-left: 0px;
+        }
+    }
+    // .welcome-page {
+    //     background-size: 100% 471px;
+    // }
+    // .nav-item {
+    //     padding: 20px 40px 20px;
+    //     font-size: 14px;
+    // }
+    // .university-name {
+    //     margin-right: 30px;
+    // }
+    // .university-first-name {
+    //     font-size: 18px;
+    //     width: 475px;
+    //     margin-bottom: 0;
+    // }
+    // .university-second-name {
+    //     font-size: 18px;
+    // }
+    // .vt-educational-areas {
+    //     margin: 0px 0px 10px 30px;
+    // }
+    // .vt-tytle {
+    //     font-size: 32px;
+    // }
+    // .specialty-code {
+    //     font-size: 20px;
+    // }
+    // .specialty-name {
+    //     font-size: 16px;
+    // }
+    // .head-of-department-block {
+    //     margin-right: 120px;
+    // }
+    // .head-of-department-tytle {
+    //     font-size: 18px;
+    //     margin-bottom: 5px;
+    // }
+    // .head-of-department-name {
+    //     font-size: 18px;
+    // }
+    // .welcome-page-achievements-tytle {
+    //     font-size: 32px;
+    // }
+    // .welcome-page-achievements-img {
+    //     width: 600px;
+    // }
+    // .welcome-page-achievements-desc {
+    //     width: 600px;
+    //     font-size: 18px;
+    //     padding: 20px 0 20px;
+    // }
+    // .president-grant-btn {
+    //     width: 175px;
+    //     font-size: 18px;
+    // }
+    // .welcome-page-achievements {
+    //     height: 560px;
+    //     background-size: 100% 560px;
+    // }
+    // .contests-and-olympiad {
+    //     background-size: 100% 660px;
+    // }
+    // .activism-and-volunteer {
+    //     background-size: 100% 600px;
+    // }
+    // .activity-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .activity-items {
+    //     padding: 0 55px;
+    // }
+    // .activism-and-volunteer-items {
+    //     padding: 0 30px;
+    // }
+    // .activity-block {
+    //     width: 200px;
+    // }
+    // .activity-block-img {
+    //     width: 200px;
+    //     height: 150px;
+    // }
+    // .activity-block-text {
+    //     font-size: 16px;
+    // }
+    // .teaching-staff {
+    //     background-size: 100% 561px;
+    //     height: 560px;
+    // }
+    // .teaching-staff-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .teaching-staff-text {
+    //     width: 600px;
+    //     font-size: 18px;
+    //     padding-bottom: 210px;
+    // }
+    // .teaching-staff-img.aiteco {
+    //     top: 270px;
+    //     left: 90px;
+    // }
+    // .teaching-staff-img.cryptosoft {
+    //     top: 270px;
+    //     right: 50px;
+    // }
+    // .teaching-staff-img.rshb-intech {
+    //     top: 370px;
+    //     left: 400px;
+    // }
+    // .teaching-staff-img.pneyi {
+    //     top: 370px;
+    //     right: 440px;
+    // }
+    // .teaching-staff-link {
+    //     width: 200px;
+    //     font-size: 16px;
+    // }
+    // .study-technology {
+    //     background-size: 100% 550px;
+    //     height: 550px;
+    // }
+    // .study-technology-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .study-technology-logo {
+    //     width: 75%;
+    //     top: 110px;
+    // }
+    // .study-technology-items {
+    //     padding-left: 100px;
+    //     font-size: 16px;
+    // }
+    // .study-technology-items-second {
+    //     bottom: 30px;
+    //     padding-left: 0px;
+    //     padding-right: 100px;
+    // }
+    // .study-discipline {
+    //     background-size: 100% 480px;
+    // }
+    // .study-discipline-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .study-discipline-items {
+    //     width: 300px;
+    //     padding-left: 100px;
+    //     font-size: 16px;
+    // }
+    // .study-discipline-items-second {
+    //     padding-left: 0px;
+    //     padding-right: 40px;
+    // }
+    // .cooperation-and-partners {
+    //     background-size: 100% 542px;
+    //     height: 540px;
+    // }
+    // .cooperation-and-partners-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .cooperation-and-partners-img {
+    //     height: 45px;
+    //     width: auto;
+    //     position: absolute;
+    // }
+    // .cooperation-and-partners-img.aiteco {
+    //     top: 140px;
+    //     left: 100px;
+    // }
+    // .cooperation-and-partners-img.cryptosoft {
+    //     top: 140px;
+    //     right: 39px;
+    // }
+    // .cooperation-and-partners-img.radio-factory {
+    //     top: 225px;
+    //     left: 140px;
+    // }
+    // .cooperation-and-partners-img.secon {
+    //     top: 225px;
+    //     right: 160px;
+    // }
+    // .cooperation-and-partners-img.open-solutions {
+    //     top: 300px;
+    //     left: 90px;
+    // }
+    // .cooperation-and-partners-img.fly {
+    //     top: 320px;
+    //     left: 255px;
+    //     height: 50px;
+    // }
+    // .cooperation-and-partners-img.ruby {
+    //     top: 390px;
+    //     left: 150px;
+    // }
+    // .cooperation-and-partners-img.code-inside {
+    //     top: 360px;
+    //     left: 370px;
+    //     height: 55px;
+    // }
+    // .cooperation-and-partners-img.pneyi {
+    //     top: 361px;
+    //     right: 170px;
+    //     height: 50px;
+    // }
+    // .cooperation-and-partners-img.rosatom {
+    //     top: 300px;
+    //     right: 70px;
+    //     height: 75px;
+    // }
+    // .cooperation-and-partners-img.niifi {
+    //     top: 460px;
+    //     left: 105px;
+    // }
+    // .cooperation-and-partners-img.niiemp {
+    //     top: 460px;
+    //     left: 255px;
+    // }
+    // .cooperation-and-partners-img.electromechanics {
+    //     top: 460px;
+    //     right: 50px;
+    // }
+    // .internships-abroad {
+    //     background-size: 100% 590px;
+    //     height: 590px;
+    // }
+    // .internships-abroad-block {
+    //     padding-left: 20px;
+    //     padding-right: 20px;
+    // }
+    // .internships-abroad-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .internships-abroad-text {
+    //     font-size: 16px;
+    // }
+    // .pride-board {
+    //     background-size: 100% 581px;
+    //     height: 580px;
+    // }
+    // .pride-board-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .pride-board-container {
+    //     justify-content: space-evenly;
+    //     margin: 0;
+    // }
+    // .pride-board-block {
+    //     width: 210px;
+    // }
+    // .pride-board-img {
+    //     height: 110px;
+    //     border-radius: 20px;
+    // }
+    // .pride-board-text {
+    //     font-size: 16px;
+    // }
+    // .student-place-of-work {
+    //     background-size: 100% 541px;
+    //     height: 540px;
+    // }
+    // .student-place-of-work-tytle {
+    //     font-size: 34px;
+    //     padding-bottom: 30px;
+    // }
+    // .student-place-of-work-img.rostelecom {
+    //     top: 120px;
+    //     left: 80px;
+    //     height: 70px;
+    // }
+    // .student-place-of-work-img.yandex {
+    //     top: 120px;
+    //     right: 220px;
+    //     height: 60px;
+    // }
+    // .student-place-of-work-img.open-solutions {
+    //     top: 125px;
+    //     right: 30px;
+    //     height: 60px;
+    // }
+    // .student-place-of-work-img.aiteco {
+    //     top: 200px;
+    //     left: 125px;
+    //     height: 50px;
+    // }
+    // .student-place-of-work-img.lanit {
+    //     top: 163px;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    //     left: 0;
+    //     right: 0;
+    //     text-align: center;
+    //     height: 80px;
+    // }
+    // .student-place-of-work-img.cryptosoft {
+    //     top: 210px;
+    //     right: 55px;
+    //     height: 45px;
+    // }
+    // .student-place-of-work-img.rshb-intech {
+    //     top: 280px;
+    //     left: 210px;
+    //     height: 50px;
+    // }
+    // .student-place-of-work-img.mts {
+    //     top: 300px;
+    //     right: 235px;
+    //     height: 45px;
+    // }
+    // .student-place-of-work-img.neofle {
+    //     top: 280px;
+    //     right: 30px;
+    //     height: 55px;
+    // }
+    // .student-place-of-work-img.mail {
+    //     top: 345px;
+    //     left: 110px;
+    //     height: 50px;
+    // }
+    // .student-place-of-work-img.alfa-bank {
+    //     top: 370px;
+    //     left: 260px;
+    //     height: 55px;
+    // }
+    // .student-place-of-work-img.bellintegrator {
+    //     top: 390px;
+    //     right: 110px;
+    //     height: 55px;
+    // }
+    // .student-place-of-work-img.kaspersky {
+    //     top: 460px;
+    //     left: 160px;
+    //     text-align: center;
+    //     height: 50px;
+    // }
+    // .footer-contact {
+    //     width: 25%;
+    // }
+    // .footer-social {
+    //     width: 25%;
+    // }
+    // .htmlacademy-logo {
+    //     width: 25%;
+    // }
+    // .footer {
+    //     justify-content: space-evenly;
+    // }
+    // .footer-contact a {
+    //     font-size: 14px;
+    // }
+    // .htmlacademy-logo span {
+    //     font-size: 14px;
+    //     margin-top: 10px;
+    // }
+}

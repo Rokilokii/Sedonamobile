@@ -1,0 +1,21 @@
+{
+    "name": "sass-compile",
+    "version": "1.0.0",
+    "description": "A simple sass compile config.",
+    "main": "index.js",
+    "scripts": {
+        "sass-dev": "sass --watch --update --style=compressed src/scss:src/css",
+        "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css",
+        "dev-server": "gulp"
+    },
+    "author": "Adam",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp-connect": "^5.7.0",
+        "sass": "^1.52.1",
+        "video.js": "^7.19.2"
+    },
+    "dependencies": {
+        "gulp": "^4.0.2"
+    }
+}

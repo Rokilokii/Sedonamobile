@@ -1,0 +1,126 @@
+@media (max-width: 1160px) {
+    .container {
+        width: 768px;
+    }
+    .header-logo-link {
+        position: absolute;
+        left: 50%;
+        margin-left: 0;
+        z-index: 10;
+        transform: translate(-50%, 0px);
+        top: 0px;
+        width: 102px;
+    }
+    .nav-item {
+        padding: 21px 18px 21px;
+    }
+    .nav-item-link {
+        width: 152px;
+    }
+    .form-main-title {
+        font-size: 30px;
+        margin: 70px auto 32px;
+    }
+    .form-main-desc {
+        line-height: 25px;
+        width: 440px;
+        margin: 0 auto 75px;
+    }
+    .user-feedback-container {
+        width: 300px;
+    }
+    .user-contact-information-container {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .user-contact-information-button-container {
+        display: flex;
+        width: 100%;
+    }
+    .user-contact-information-subcontainer {
+        min-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .radios input[type=radio]:checked+label:before {
+        left: 0px;
+    }
+    .radios label:before {
+        left: 0px;
+    }
+    .radios label {
+        margin-bottom: 41px;
+        padding-left: 78px;
+    }
+    .user-contact-information-label {
+        padding-left: 20px;
+        padding-bottom: 12px;
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    .user-info-title {
+        padding-bottom: 60px;
+        padding-left: 34px;
+    }
+    .user-info-wrapper {
+        display: flex;
+        align-items: center;
+        padding-bottom: 18px;
+        padding-left: 34px;
+    }
+    .user-email-label {
+        padding-top: 28px;
+    }
+    .user-contact-information-input-form {
+        flex-grow: 1;
+    }
+    .user-email-input-form {
+        margin-bottom: 52px;
+    }
+    .user-phone-number-label {
+        display: none;
+    }
+    .user-phone-number-label-mobile {
+        display: block;
+    }
+    .visited-attractions {
+        margin: 0 60px;
+        margin-bottom: 38px;
+    }
+    .visited-attractions-checkboxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .visited-attractions-checkboxes-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .checkboxes {
+        margin: 0 0 50px 0;
+        width: 220px;
+    }
+    .user-emotion-container {
+        margin-bottom: 62px;
+    }
+    .user-emotions {
+        margin: 0 60px;
+    }
+    .user-emotion-input-form {
+        min-width: 624px;
+        height: 160px;
+        border: 0;
+        background-color: #f2f2f2;
+        padding-left: 22px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 57px;
+    }
+    .user-emotions-button {
+        min-width: 50%;
+    }
+}
